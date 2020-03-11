@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JTBuriedPointLib (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - JTBuriedPointLib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  JTBuriedPointLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JTBuriedPointLib: 354622955e0a18eccd11f194c38f7263cc45f9e7
+
+PODFILE CHECKSUM: adbad2e0341794c4ef95259e65ea6c61fcd3e2df
+
+COCOAPODS: 1.8.4

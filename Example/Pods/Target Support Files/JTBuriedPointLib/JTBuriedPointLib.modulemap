@@ -1,0 +1,6 @@
+framework module JTBuriedPointLib {
+  umbrella header "JTBuriedPointLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
